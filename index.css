@@ -31,3 +31,7 @@ h3 {
 .card:not(:last-child) {
   margin-right: 4px;
 }
+
+.row-row {
+  margin: 5px 0;
+}

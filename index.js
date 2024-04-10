@@ -5,6 +5,9 @@ let handsSpan;
 let dealerHandsDiv;
 let dealerHandsSpan;
 let resultSpan;
+let potInput;
+let betInput;
+let walletInput;
 
 let deck = [];
 
@@ -119,6 +122,7 @@ function submit() {
 
   if (dealerSum === youSum) {
     resultSpan.innerText = "Draw";
+    walletInput.value = parseInt(walletInput.value) + parseInt(potInput.value);
   } else if (
     (youDiff < 0 && dealerDiff < 0 && youDiff > dealerDiff) ||
     (youDiff > 0 && dealerDiff > 0 && youDiff < dealerDiff) ||
@@ -126,6 +130,8 @@ function submit() {
     youDiff === 0
   ) {
     resultSpan.innerText = "Win";
+    walletInput.value =
+      parseInt(walletInput.value) + parseInt(potInput.value) * 2;
   } else {
     resultSpan.innerText = "Lose";
   }
@@ -142,8 +148,17 @@ function reset() {
 
   deal();
   dealerDeal(true);
+  potInput.value = 0;
+  bet();
 
   resultSpan.innerText = "-";
+}
+
+function bet() {
+  console.log(potInput, betInput, walletInput);
+
+  potInput.value = parseInt(potInput.value) + parseInt(betInput.value);
+  walletInput.value = parseInt(walletInput.value) - parseInt(betInput.value);
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -154,6 +169,9 @@ document.addEventListener("DOMContentLoaded", () => {
   dealerHandsDiv = document.querySelector("#dealer-hands");
   dealerHandsSpan = document.querySelector("#dealer-hands-number");
   resultSpan = document.querySelector("#result");
+  potInput = document.querySelector("#pot");
+  betInput = document.querySelector("#bet");
+  walletInput = document.querySelector("#wallet");
 
   reset();
 });
