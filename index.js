@@ -8,6 +8,34 @@ let resultSpan;
 let potInput;
 let betInput;
 let walletInput;
+let betButton;
+let dealButton;
+let submitButton;
+let resetButton;
+let betDiv;
+
+let phase = 0;
+
+function updateButtons() {
+  betButton.style.display = "none";
+  dealButton.style.display = "none";
+  submitButton.style.display = "none";
+  resetButton.style.display = "none";
+  betDiv.style.display = "none";
+
+  if (phase === 0) {
+    betButton.style.display = "";
+    betDiv.style.display = "";
+  } else if (phase === 1) {
+    generateDice();
+    dealButton.style.display = "";
+    submitButton.style.display = "";
+  } else if (phase === 2) {
+    resetButton.style.display = "";
+  }
+
+  phase += 1;
+}
 
 let deck = [];
 
@@ -110,6 +138,11 @@ function generateDice() {
   setDiceNumbers(numbers);
 }
 
+function resetDice() {
+  diceSum = 0;
+  setDiceNumbers([0, 0, 0]);
+}
+
 function submit() {
   while (diceSum - getHandSum(dealerHand) >= 6) {
     dealerDeal();
@@ -137,6 +170,7 @@ function submit() {
   }
 
   renderHand(dealerHandsDiv, dealerHandsSpan, dealerHand, false);
+  updateButtons();
 }
 
 function reset() {
@@ -144,14 +178,18 @@ function reset() {
   dealerHand = [];
 
   generateDeck();
-  generateDice();
+  resetDice();
 
   deal();
   dealerDeal(true);
   potInput.value = 0;
+  betInput.value = 5;
   bet();
 
   resultSpan.innerText = "-";
+
+  phase = 0;
+  updateButtons();
 }
 
 function bet() {
@@ -159,6 +197,8 @@ function bet() {
 
   potInput.value = parseInt(potInput.value) + parseInt(betInput.value);
   walletInput.value = parseInt(walletInput.value) - parseInt(betInput.value);
+
+  updateButtons();
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -172,6 +212,11 @@ document.addEventListener("DOMContentLoaded", () => {
   potInput = document.querySelector("#pot");
   betInput = document.querySelector("#bet");
   walletInput = document.querySelector("#wallet");
+  betButton = document.querySelector("#bet-button");
+  dealButton = document.querySelector("#deal-button");
+  submitButton = document.querySelector("#submit-button");
+  resetButton = document.querySelector("#reset-button");
+  betDiv = document.querySelector("#bet-div");
 
   reset();
 });

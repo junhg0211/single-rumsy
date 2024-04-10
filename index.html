@@ -32,14 +32,14 @@
       <div class="row-row">
         Pot <input type="number" id="pot" value="0" disabled />
       </div>
-      <div class="row-row">
+      <div class="row-row" id="bet-div">
         Bet <input type="number" id="bet" value="5" min="0" />
       </div>
       <div class="row-row">
-        <button onclick="bet()">Bet</button>
-        <button onclick="deal()">Deal</button>
-        <button onclick="submit()">Submit</button>
-        <button onclick="reset()">Reset</button>
+        <button id="bet-button" onclick="bet()">Bet</button>
+        <button id="deal-button" onclick="deal()">Deal</button>
+        <button id="submit-button" onclick="submit()">Submit</button>
+        <button id="reset-button" onclick="reset()">Reset</button>
       </div>
       <div class="row-row">
         Wallet <input type="number" id="wallet" value="1000" disabled />
