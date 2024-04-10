@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2.5in" height="3.5in" viewBox="0 0 180 252">
+  <g id="a" data-name="레이어 35">
+    <rect x="-1200" width="1818" height="1116" fill="#fff" stroke-width="0"/>
+  </g>
+  <g id="i" data-name="레이어 8">
+    <g>
+      <circle cx="90" cy="140.398" r="8.025" fill="none" stroke="#a52324" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <g>
+        <circle cx="105.683" cy="111.602" r="8.025" fill="none" stroke="#a52324" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+        <circle cx="74.317" cy="111.602" r="8.025" fill="none" stroke="#a52324" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      </g>
+      <line x1="90" y1="140.398" x2="105.683" y2="111.602" fill="none" stroke="#a52324" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <line x1="74.317" y1="111.602" x2="90" y2="140.398" fill="none" stroke="#a52324" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+    </g>
+  </g>
+  <g id="ag" data-name="레이어 32">
+    <path d="M50.678,27.681v-.498H16.535v-10.21h46.806v10.475l-29.437,57.415h-12.695l29.469-57.182Z" fill="#a52324" stroke-width="0"/>
+    <path d="M129.322,224.318v.498h34.145v10.21h-46.807v-10.476l29.436-57.414h12.697l-29.471,57.182Z" fill="#a52324" stroke-width="0"/>
+  </g>
+</svg>

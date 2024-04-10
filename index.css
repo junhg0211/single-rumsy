@@ -1,0 +1,33 @@
+body {
+  font-family: "Pretendard JP", sans-serif;
+  text-align: center;
+}
+
+h1,
+h3 {
+  margin: 0;
+}
+
+.row {
+  margin: 10px 0;
+}
+
+.dice {
+  height: 24px;
+  vertical-align: middle;
+}
+
+.dice:not(:last-child) {
+  margin-right: 4px;
+}
+
+.card {
+  height: 48px;
+  vertical-align: middle;
+  border: black solid 1px;
+  border-radius: 3px;
+}
+
+.card:not(:last-child) {
+  margin-right: 4px;
+}

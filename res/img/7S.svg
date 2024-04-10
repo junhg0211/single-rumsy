@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2.5in" height="3.5in" viewBox="0 0 180 252">
+  <g id="a" data-name="레이어 35">
+    <rect x="-1200" y="-288" width="1818" height="1116" fill="#fff" stroke-width="0"/>
+  </g>
+  <g id="q" data-name="레이어 16">
+    <g>
+      <circle cx="89.341" cy="123.003" r="8.025" fill="none" stroke="#ebc129" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <circle cx="105.272" cy="103.153" r="4.069" fill="none" stroke="#ebc129" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <circle cx="100.323" cy="136.219" r="4.069" fill="none" stroke="#ebc129" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <circle cx="115.043" cy="137.817" r="4.069" fill="none" stroke="#ebc129" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <circle cx="95.708" cy="148.847" r="4.069" fill="none" stroke="#ebc129" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <circle cx="72.175" cy="128.08" r="4.069" fill="none" stroke="#ebc129" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <circle cx="108.147" cy="119.805" r="4.069" fill="none" stroke="#ebc129" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <circle cx="64.957" cy="115.736" r="4.069" fill="none" stroke="#ebc129" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <line x1="97.722" y1="133.089" x2="94.47" y2="129.175" fill="none" stroke="#ebc129" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <line x1="97.105" y1="145.024" x2="98.926" y2="140.041" fill="none" stroke="#ebc129" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <line x1="110.998" y1="137.378" x2="104.369" y2="136.658" fill="none" stroke="#ebc129" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <line x1="107.445" y1="115.736" x2="105.974" y2="107.223" fill="none" stroke="#ebc129" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <line x1="113.588" y1="134.015" x2="109.602" y2="123.605" fill="none" stroke="#ebc129" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <line x1="81.644" y1="125.279" x2="76.077" y2="126.926" fill="none" stroke="#ebc129" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <line x1="67.196" y1="119.566" x2="70.121" y2="124.567" fill="none" stroke="#ebc129" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+    </g>
+  </g>
+  <g id="ag" data-name="레이어 32">
+    <path d="M50.678,27.681v-.497H16.535v-10.21h46.806v10.475l-29.437,57.415h-12.695l29.469-57.183Z" fill="#ebc129" stroke-width="0"/>
+    <path d="M129.322,224.318v.498h34.145v10.21h-46.807v-10.476l29.436-57.414h12.697l-29.471,57.182Z" fill="#ebc129" stroke-width="0"/>
+  </g>
+</svg>

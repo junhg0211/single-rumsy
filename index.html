@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale: 1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js"></script>
+    <title>Single Rumsy</title>
+  </head>
+  <body>
+    <h1>Single Rumsy</h1>
+    <div class="row">
+      <h3>Rumsy</h3>
+      <span id="rumsy"></span>
+      (<span id="rumsy-number">0</span>)
+    </div>
+    <div class="row">
+      <h3>Dealer</h3>
+      <span id="dealer-hands"></span>
+      (<span id="dealer-hands-number">0</span>)
+    </div>
+    <div class="row">
+      <h3>You</h3>
+      <span id="hands"></span>
+      (<span id="hands-number">0</span>)
+    </div>
+    <div class="row">
+      <h3>Result</h3>
+      <span id="result">-</span>
+    </div>
+    <div class="row">
+      <button onclick="deal()">Deal</button>
+      <button onclick="submit()">Submit</button>
+      <button onclick="reset()">Reset</button>
+    </div>
+  </body>
+</html>

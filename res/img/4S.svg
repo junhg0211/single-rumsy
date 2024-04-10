@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2.5in" height="3.5in" viewBox="0 0 180 252">
+  <g id="a" data-name="레이어 35">
+    <rect x="-600" y="-288" width="1818" height="1116" fill="#fff" stroke-width="0"/>
+  </g>
+  <g id="q" data-name="레이어 16">
+    <g>
+      <rect x="71.533" y="118.403" width="20.954" height="30.138" fill="none" stroke="#ebc129" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <polyline points="79.523 110.413 100.477 110.413 100.477 140.551" fill="none" stroke="#ebc129" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <polyline points="87.513 102.423 108.467 102.423 108.467 132.561" fill="none" stroke="#ebc129" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+    </g>
+  </g>
+  <g id="ag" data-name="레이어 32">
+    <path d="M17.463,62.487l29.337-45.514h8.056v13.856h-5.006l-19.856,30.828v.531h40.973v10.044H17.463v-9.746ZM50.413,69.25l.132-4.376V16.974h11.504v67.89h-11.636v-15.613Z" fill="#ebc129" stroke-width="0"/>
+    <path d="M162.539,189.512l-29.338,45.515h-8.055v-13.856h5.006l19.855-30.828v-.531h-40.973v-10.044h53.504v9.745ZM129.588,182.75l-.133,4.375v47.901h-11.502v-67.89h11.635v15.613Z" fill="#ebc129" stroke-width="0"/>
+  </g>
+</svg>

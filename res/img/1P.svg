@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2.5in" height="3.5in" viewBox="0 0 180 252">
+  <g id="a" data-name="레이어 35">
+    <rect y="-864" width="1818" height="1116" fill="#fff" stroke-width="0"/>
+  </g>
+  <g id="ag" data-name="레이어 32">
+    <g>
+      <polygon points="90 105.056 67.517 146.944 112.483 146.944 90 105.056" fill="none" stroke="#11397d" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <polygon points="90 105.056 81.617 120.674 98.383 120.674 90 105.056" fill="none" stroke="#11397d" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+    </g>
+    <path d="M46.269,84.863h-12.265V28.874h-.397l-15.878,10.144v-11.171l16.839-10.873h11.702v67.89Z" fill="#11397d" stroke-width="0"/>
+    <path d="M133.732,167.137h12.265v55.988h.397l15.879-10.143v11.171l-16.84,10.873h-11.701v-67.89Z" fill="#11397d" stroke-width="0"/>
+  </g>
+</svg>

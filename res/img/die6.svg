@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="레이어 2" xmlns="http://www.w3.org/2000/svg" width="41.924" height="52.405" viewBox="0 0 41.924 52.405">
+  <g id="c" data-name="레이어 1">
+    <g>
+      <g>
+        <rect width="41.924" height="41.924" fill="#f7f7f5" stroke-width="0"/>
+        <g>
+          <circle cx="10.61" cy="9.144" r="4.795" fill="#2c2c2c" stroke-width="0"/>
+          <circle cx="31.314" cy="20.962" r="4.795" fill="#2c2c2c" stroke-width="0"/>
+          <circle cx="31.314" cy="9.144" r="4.795" fill="#2c2c2c" stroke-width="0"/>
+          <circle cx="10.61" cy="20.962" r="4.795" fill="#2c2c2c" stroke-width="0"/>
+          <circle cx="31.314" cy="32.78" r="4.795" fill="#2c2c2c" stroke-width="0"/>
+          <circle cx="10.61" cy="32.78" r="4.795" fill="#2c2c2c" stroke-width="0"/>
+        </g>
+      </g>
+      <g>
+        <rect y="41.924" width="41.924" height="10.481" fill="#bfbfbf" stroke-width="0"/>
+        <g>
+          <ellipse cx="10.61" cy="44.577" rx="4.795" ry="1.199" fill="#2c2c2c" stroke-width="0"/>
+          <ellipse cx="20.962" cy="47.165" rx="4.795" ry="1.199" fill="#2c2c2c" stroke-width="0"/>
+          <ellipse cx="31.314" cy="49.753" rx="4.795" ry="1.199" fill="#2c2c2c" stroke-width="0"/>
+          <ellipse cx="31.314" cy="44.577" rx="4.795" ry="1.199" fill="#2c2c2c" stroke-width="0"/>
+          <ellipse cx="10.61" cy="49.753" rx="4.795" ry="1.199" fill="#2c2c2c" stroke-width="0"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
