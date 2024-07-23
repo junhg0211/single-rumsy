@@ -18,6 +18,7 @@ let phase = 0;
 
 function updateButtons() {
   betButton.style.display = "none";
+  doubleButton.style.display = "none";
   dealButton.style.display = "none";
   submitButton.style.display = "none";
   resetButton.style.display = "none";
@@ -25,6 +26,7 @@ function updateButtons() {
 
   if (phase === 0) {
     betButton.style.display = "";
+    doubleButton.style.display = "";
     betDiv.style.display = "";
   } else if (phase === 1) {
     generateDice();
@@ -183,8 +185,7 @@ function reset() {
   deal();
   dealerDeal(true);
   potInput.value = 0;
-  betInput.value = 5;
-  bet();
+  bet(5);
 
   resultSpan.innerText = "-";
 
@@ -192,11 +193,21 @@ function reset() {
   updateButtons();
 }
 
-function bet() {
-  console.log(potInput, betInput, walletInput);
+function double() {
+  potInput.value = parseInt(potInput.value) + parseInt(betInput.value) * 2;
+  walletInput.value =
+    parseInt(walletInput.value) - parseInt(betInput.value) * 2;
 
-  potInput.value = parseInt(potInput.value) + parseInt(betInput.value);
-  walletInput.value = parseInt(walletInput.value) - parseInt(betInput.value);
+  updateButtons();
+}
+
+function bet(value) {
+  if (value === undefined) {
+    value = parseInt(betInput.value);
+  }
+
+  potInput.value = parseInt(potInput.value) + value;
+  walletInput.value = parseInt(walletInput.value) - value;
 
   updateButtons();
 }
@@ -213,6 +224,7 @@ document.addEventListener("DOMContentLoaded", () => {
   betInput = document.querySelector("#bet");
   walletInput = document.querySelector("#wallet");
   betButton = document.querySelector("#bet-button");
+  doubleButton = document.querySelector("#double-button");
   dealButton = document.querySelector("#deal-button");
   submitButton = document.querySelector("#submit-button");
   resetButton = document.querySelector("#reset-button");
